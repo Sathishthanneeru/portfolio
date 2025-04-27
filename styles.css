@@ -30,6 +30,12 @@
     flex-wrap: wrap;
     padding: 10px;
   }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
   header h2 {
     margin: 0;
     text-shadow: 1px 1px 2px rgb(68, 68, 68);
